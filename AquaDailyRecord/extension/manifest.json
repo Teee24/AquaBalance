@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AquaDailyRecord",
+  "description": "記錄每日喝水",
+  "version": "0.0.1",
+  "icons": {
+    "128": "notes.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "notes.png"
+    }
+  },
+  "permissions": ["storage", "notifications", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
